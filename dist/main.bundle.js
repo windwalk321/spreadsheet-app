@@ -30,12 +30,12 @@ function _start() {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            console.log('0');
+            console.log("0");
             _context.next = 3;
             return wait(3000);
 
           case 3:
-            console.log('1');
+            console.log("1");
 
           case 4:
           case "end":
@@ -48,7 +48,7 @@ function _start() {
 }
 
 start();
-console.log('modulasd');
+console.log("modulasd 'sdsad' sasdad");
 
 /***/ }),
 
@@ -15502,7 +15502,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-console.log('Hello wor');
+console.log("Hello wor");
 })();
 
 /******/ })()
